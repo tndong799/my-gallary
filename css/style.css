@@ -1,0 +1,174 @@
+html {
+    font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    color: #4E5150;
+    line-height: 1.4;
+    font-weight: 400;
+    background-color: #fff;
+    position: relative;
+}
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.container {
+    margin: 0 auto;
+    padding-left: 24rem;
+    padding-right: 24rem;
+}
+
+
+.user{
+    padding-top: 4rem;
+}
+.user__container{
+    display: flex;
+	justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.user__avt{
+    max-width: 18rem;
+    border-radius: 2rem;
+    padding-bottom: .8rem;
+}
+.user__name{
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 3rem;
+}
+.user__pos{
+    padding-top: .8rem;
+    padding-bottom: 2.4rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.7rem;
+    color: #A9A9A9;
+}
+.user__details-list{
+    display: flex;
+    justify-content: space-between;
+    width: 34.8rem;
+    height: 6.7rem;
+}
+.user__details-item{
+    width: calc(33.3% - 1.6rem);
+    background: #E5E5E5;
+    border-radius: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.user__details-num{
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 2.2rem;
+}
+.user__details-name{
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #BDBDBD;
+}
+
+.gallarey{
+    padding-top: 6.4rem;
+}
+.gallarey__container{
+    width: 100%;
+    display: block;
+}
+.gallarey__img{
+    max-width: 100%;
+    border-radius: 1.2rem;
+}
+.img-column{
+    max-height: calc(100% - .9rem);
+}
+.pt-2-4{
+    padding-top: 2.4rem;
+}
+
+.footer{
+    margin-top: 10rem;
+    margin-bottom: 5.8rem;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 480px){
+    .container{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .user{
+        padding-top: 2.8rem;
+    }
+    .user__avt{
+        max-width: 12rem;
+        padding-bottom: .6rem;
+    }
+    .user__name{
+        font-size: 1.6rem;
+        font-weight: 600;
+        line-height: 1.8rem;
+    }
+    .user__pos{
+        padding-top: .6rem;
+        padding-bottom: 1.6rem;
+        font-size: 1.2rem;
+        line-height: 1.4rem;
+    }
+    .user__details-list{
+        width: 25.8rem;
+        height: 5.2rem;
+    }
+    .user__details-num{
+        font-size: 1.2rem;
+        line-height: 1.4rem;
+    }
+    .user__details-name{
+        font-size: 1rem;
+        line-height: 1.2rem;
+    }
+
+
+    .gallarey{
+        padding-top: 3.2rem;
+    }
+    .gallarey__container{
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    }
+    .pt-2-4{
+        padding-top: .8rem;
+    }
+    .img-column{
+        max-height: calc(100% - .6rem);
+    }
+    .footer{
+        margin-top: 2.8rem;
+        margin-bottom: 2.8rem;
+        font-size: 1.2rem;
+    }
+}
